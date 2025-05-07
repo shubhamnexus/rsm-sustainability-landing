@@ -10,7 +10,7 @@ export default function ProgramDetailsSection() {
         <div className="flex-1 text-white max-w-xl">
           <h2 className="text-2xl md:text-3xl font-bold mb-6 relative">
             Upskill Your Entire Organization With <br /> Our Comprehensive Program
-            <div className="absolute -bottom-2 left-0 w-20 h-1 bg-[#27C26C] rounded-full"></div>
+            <div className="absolute -bottom-2 left-0 w-20 h-1 bg-[#16A34A] rounded-full"></div>
           </h2>
           <p className="mb-10 text-[#cfd8e3] leading-relaxed">
             The Sustainability Toolkit provides the skills, tools, and insights needed to navigate the evolving landscape of ESG practices in Saudi Arabia.
@@ -53,7 +53,7 @@ export default function ProgramDetailsSection() {
           <div className="bg-white/95 backdrop-blur-sm rounded-2xl shadow-2xl p-8 w-full max-w-lg border-2 border-[#009BDE] transform hover:scale-[1.02] transition-transform duration-300">
             <h3 className="text-xl font-bold mb-8 text-[#00163A] relative">
               Program Details
-              <div className="absolute -bottom-2 left-0 w-16 h-1 bg-[#27C26C] rounded-full"></div>
+              <div className="absolute -bottom-2 left-0 w-16 h-1 bg-[#16A34A] rounded-full"></div>
             </h3>
             <div className="space-y-8 mb-8">
               {/* Duration */}
@@ -89,7 +89,7 @@ export default function ProgramDetailsSection() {
             </div>
             <button 
               onClick={() => window.open('https://rsmacademy.vercel.app/', '_blank')}
-              className="w-full bg-[#27C26C] hover:bg-[#1fa85a] text-white font-semibold py-3.5 rounded-xl transition-all duration-300 transform hover:scale-[1.02] hover:shadow-lg"
+              className="w-full bg-[#16A34A] hover:bg-[#1fa85a] text-white font-semibold py-3.5 rounded-xl transition-all duration-300 transform hover:scale-[1.02] hover:shadow-lg"
             >
               Register for the program
             </button>
