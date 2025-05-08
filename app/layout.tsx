@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import './globals.css'
 import Footer from '@/components/Footer'
+import GoogleAnalyticsWrapper from './components/GoogleAnalyticsWrapper'
 
 export const metadata: Metadata = {
   title: 'RSM Sustainability Landing',
@@ -19,6 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="min-h-screen flex flex-col">
+        <GoogleAnalyticsWrapper />
         <main className="flex-grow">
           {children}
         </main>
