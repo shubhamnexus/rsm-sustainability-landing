@@ -19,7 +19,7 @@ export default function HeroSection() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.2 }}
-              className="text-[2.4rem] md:text-[2.8rem] leading-tight mb-3"
+              className="text-[2.4rem] md:text-[2.8rem] leading-tight mb-0"
             >
               <span className="text-[#3F9C35] font-bold inline-block hover:text-[#2E7D32] transition-colors duration-300">
                 The Sustainability Toolkit:

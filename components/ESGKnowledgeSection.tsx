@@ -9,7 +9,7 @@ export default function ESGKnowledgeSection() {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.6 }}
-      className="relative px-4 sm:px-6 md:px-8 pt-6 md:pt-8 pb-12 md:pb-20 bg-[#192334] overflow-hidden rounded-[16px] md:rounded-[24px] mx-4 sm:mx-8 md:mx-[160px] mt-[16px] mb-6 md:mb-[48px]"
+      className="relative px-4 sm:px-6 md:px-8 pt-12 md:pt-16 pb-12 md:pb-20 bg-[#192334] overflow-hidden rounded-[16px] md:rounded-[24px] mx-4 sm:mx-8 md:mx-[160px] mt-[16px] mb-6 md:mb-[48px]"
     >
       
       <div className="absolute inset-0 w-full h-full z-0">
